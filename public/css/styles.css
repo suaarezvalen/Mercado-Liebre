@@ -16,10 +16,6 @@
     width: 100%;
 }
 
-.logo-busqueda-parrafo1{
-    display: block;
-}
-
 #logo{
     font-family: "Roboto Regular";
     width: 240px;
@@ -28,19 +24,25 @@
     margin-left: 30px;
 }
 
+.logo-busqueda-parrafo1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+
 .menu{
     display: none;
-    flex-direction: row;
 }
 
 #busqueda{
     padding-top: 20px;
-    margin-left: 30px;
 }
 
 #parrafo1{
     font-size: 18px;
     text-align: center;
+    margin-right: 30px;
 }
 
 #lista1{
@@ -81,17 +83,18 @@
     margin-left: 10px;
 }
 
-.flex-productos{
-    display: flex;
-}
-
-.productos{
+.categorias{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.producto1{
+.flex-productos{
+    display: flex;
+    
+}
+
+.imagen-prod{
     background-color: white;
     margin: 5px;
     padding: 10px;
@@ -100,14 +103,14 @@
     box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
 }
 
-.info-prod1{
+.info-prod{
     background-color: white;
     margin: 5px;
     padding: 10px;
     box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
 }
 
-.info-prod1 .descuento{
+.info-prod .descuento{
     color: rgb(0, 255, 34);
 }
 
