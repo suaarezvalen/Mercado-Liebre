@@ -1,0 +1,200 @@
+#headder{
+    background-color: #EAC926;
+    width: 100%;
+    margin: center;
+}
+
+.main{
+    background-color: #dfdfdf;
+    width: 100%;
+}
+
+#footer{
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.logo-busqueda-parrafo1{
+    display: block;
+}
+
+#logo{
+    font-family: "Roboto Regular";
+    width: 240px;
+    height: 70px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.menu{
+    display: none;
+    flex-direction: row;
+}
+
+#busqueda{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+#parrafo1{
+    font-size: 18px;
+    text-align: center;
+}
+
+#lista1{
+    margin-left: -10px;
+    font-size: 18px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.img-prod{
+    width: 100%;
+    margin-top: auto;   
+}
+
+.icono-camion{
+    color: rgb(0, 224, 0);
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#vista{
+    font-family: "Roboto";
+    color: rgb(78, 78, 78);
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+#oferta{
+    font-family: "Roboto";
+    color: rgb(78, 78, 78);
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.flex-productos{
+    display: flex;
+}
+
+.productos{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.producto1{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    border-bottom: solid #ebebeb 1px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
+}
+
+.info-prod1{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
+}
+
+.info-prod1 .descuento{
+    color: rgb(0, 255, 34);
+}
+
+.info-prod1 .descripcion{
+    color: #8b8b8b;
+}
+
+.listado-main{
+    font-family: "Roboto";
+    margin-left: 30px;
+}
+
+.precio{
+    font-family: "Roboto";
+    font-size: 18px;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.descuento{
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 70%;
+}
+
+.precio-descuento{
+    display: flex;
+}
+
+.descripcion{
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.iconos{
+    color: rgb(0, 110, 255);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#copyright{
+    color: #8b8b8b;
+    margin-top: 70px;
+}
+
+
+@media (min-width: 769px) and (max-width: 1079px){
+
+}
+
+@media (min-width: 361px) and (max-width: 768px){
+    .menu{
+        display: block;
+        color: rgb(0, 110, 255);
+        text-align: center;
+        font-size: 50px;
+        margin-top: 40px;
+    }
+    
+    #lista1{
+        display: none;
+    }
+
+    .producto1{
+        box-shadow: none;
+    }
+
+    .info-prod1{
+        box-shadow: none;
+    }
+
+    .info-prod1 .descripcion{
+        display: none;
+    }
+
+    .producto2{
+        box-shadow: none;
+    }
+
+    .info-prod2{
+        box-shadow: none;
+    }
+
+    .info-prod2 .descripcion{
+        display: none;
+    }
+
+}
