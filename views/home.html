@@ -8,225 +8,158 @@
     <script src="https://kit.fontawesome.com/0c45205cfc.js" crossorigin="anonymous"></script>
 </head>
 
-<body id="cuerpo">
-    <section id="headder">
-        <headder>
-            <article class="logo-busqueda-parrafo1">
-            <img src="/img/mercado libre.png" id="logo"></img>
-            <div id="busqueda"> 
+<body>
+
+    <header>
+
+        <div class="flex-header1">
+            
+            <img class="logo-header" src="/img/mercado-libre.png"></img>
+            <section>
                 <input id="search" name="buscar" value="Buscar productos, marcas"></input>
                 <button> <i class="fas fa-search"></i> </button>
-            </div>
-            <p id="parrafo1"> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
-            </article>
-            <ul type="none" id="lista1">
-                <li> Ofertas </li>
-                <li> Tiendas Oficiales </li>
-                <li> Vennder </li>
-                <li> Ayuda </li>
-                <br>
-                <li> Creá tu cuenta <i class="far fa-id-card"></i></li>
-                <li> Ingresá <i class="fas fa-sign-in-alt"></i></li>
-                <li> Mis compras <i class="fas fa-shopping-basket"></i></li>
-            </ul>
-            <section class="menu">
-                <i class="fas fa-bars"></i>
             </section>
-            <br>
+            <p id="parrafo1"> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
 
-        </headder>
-    </section>
+        </div>
 
-    <main class="main">
+        <div class="flex-header2">
 
-        <img src="/img/banner.jpg" id="banner"></img>
+            <section class="lista-header">
+                <p>Ofertas</p>
+                <p>Tiendas Oficiales</p>
+                <p>Vender</p>
+                <p>Ayuda</p>
+            </section>
 
-        <section class="categorias">
-            <br>
-            <p id="vista"> Basado en tu última vista </p>
+            <section class="lista-header">
+                <p>Creá tu cuenta <i class="far fa-id-card"></i></p>
+                <p>Ingresá <i class="fas fa-sign-in-alt"></i></p>
+                <p>Mis compras <i class="fas fa-shopping-basket"></i></p>
+            </section>
 
-            <div class="flex-productos">
+        </div>
 
-                <section class="prod">
-                    <section class="imagen-prod">
-                        <img src="/img/cafetera.jpg" class="img-prod"></img>  
-                    </section>
+        <div class="menu-header">
+            <i class="fas fa-bars"></i>
+        </div>
 
-                    <section class="info-prod">
-                        <article class="icono-camion">
-                            <i class="fas fa-truck"></i>
-                        </article>
-                        <article class="precio-descuento">
-                        <p class="precio"> $60.000 </p>
-                        <p class="descuento"> 20% off </p>
-                        </article>  
-                        <p class="descripcion"> Cafetera Fachera </p>
-                    </section>
-                </section>
+    </header>
 
-                <br>
+    <main>
 
-                <section class="prod">
-                    <section class="imagen-prod">
-                        <img src="/img/tvsamsung.jpg" class="img-prod"></img>  
-                    </section>
+        <div>
+            <img src="/img/banner.jpg" class="banner-main"></img>
+        </div>
 
-                    <section class="info-prod">
-                        <article class="icono-camion">
-                            <i class="fas fa-truck"></i>
-                        </article>
-                        <article class="precio-descuento">
-                        <p class="precio"> $120.000 </p>
-                        <p class="descuento"> 15% off </p>
-                        </article>  
-                        <p class="descripcion"> Televisión Samsung </p>
-                    </section>
-                </section>
+        <div>
+            <p class="titulo-main">Basado en tu última búsqueda</p>
+        </div>
 
-                <br>
+        <div class="flex-main">
 
-                <section class="prod">
-                    <section class="imagen-prod">
-                        <img src="/img/macbook.png" class="img-prod"></img>
-                    </section>
+            <section class="productos-main">
 
-                    <section class="info-prod">
-                        <article class="icono-camion">
-                            <i class="fas fa-truck"></i>
-                        </article>
-                        <article class="precio-descuento">
-                        <p class="precio"> $230.000 </p>
-                        <p class="descuento"> 20% off </p>
-                        </article>
-                        <p class="descripcion"> MackBook Pro 2009 </p>
-                    </section>
-                </section>    
+                <article class="img-productos-main">
+                    <img src="/img/cafetera.jpg" class="imganes-img-main"></img>
+                </article>
+                <article class="info-productos-main">
+                    <div class="icono-info-main">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="pyd-productos-main">
+                        <p class="precio-info-main">$25.000</p>
+                        <p class="descuento-info-main">5% off</p>
+                    </div>
+                </article>
 
-                <br>
+            </section>
 
-                <section class="prod">
-                    <section class="imagen-prod">
-                        <img src="/img/celusamsung.jpg" class="img-prod"></img>
-                    </section>
+            <section class="productos-main">
+                
+                <article class="img-productos-main">
+                    <img src="/img/celusamsung.jpg" class="imganes-img-main"></img>
+                </article>
+                <article class="info-productos-main">
+                    <div class="icono-info-main">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="pyd-productos-main">
+                        <p class="precio-info-main">$125.000</p>
+                        <p class="descuento-info-main">13% off</p>
+                    </div>
+                </article>
 
-                    <section class="info-prod">
-                        <article class="icono-camion">
-                            <i class="fas fa-truck"></i>
-                        </article>
-                        <article class="precio-descuento">
-                        <p class="precio"> $180.000 </p>
-                        <p class="descuento"> 9% off </p>
-                        </article>
-                        <p class="descripcion"> Samsung Galaxy S10 </p>
-                    </section>
-                </section>
+            </section>
 
-            </diV>
+            <section class="productos-main">
+                
+                <article class="img-productos-main">
+                    <img src="/img/macbook.jpg" class="imganes-img-main"></img>
+                </article>
+                <article class="info-productos-main">
+                    <div class="icono-info-main">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="pyd-productos-main">
+                        <p class="precio-info-main">$215.000</p>
+                        <p class="descuento-info-main">3% off</p>
+                    </div>
+                </article>
 
-            <p id="oferta"> Ofertas </p>
+            </section>
 
-            <div class="flex-productos">
+            <section class="productos-main">
+                
+                <article class="img-productos-main">
+                    <img src="/img/tvsamsung.jpg" class="imganes-img-main"></img>
+                </article>
+                <article class="info-productos-main">
+                    <div class="icono-info-main">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="pyd-productos-main">
+                        <p class="precio-info-main">$140.000</p>
+                        <p class="descuento-info-main">31% off</p>
+                    </div>
+                </article>
 
-                <section class="prod">
-                    <section class="imagen-prod">
-                        <img src="/img/cafetera.jpg" class="img-prod"></img>  
-                    </section>
+            </section>
 
-                    <section class="info-prod">
-                        <article class="icono-camion">
-                            <i class="fas fa-truck"></i>
-                        </article>
-                        <article class="precio-descuento">
-                        <p class="precio"> $60.000 </p>
-                        <p class="descuento"> 20% off </p>
-                        </article>  
-                        <p class="descripcion"> Cafetera Fachera </p>
-                    </section>
-                </section>
+        </div>
 
-                <br>
-
-                <section class="prod">
-                    <section class="imagen-prod">
-                        <img src="/img/tvsamsung.jpg" class="img-prod"></img>  
-                    </section>
-
-                    <section class="info-prod">
-                        <article class="icono-camion">
-                            <i class="fas fa-truck"></i>
-                        </article>
-                        <article class="precio-descuento">
-                        <p class="precio"> $120.000 </p>
-                        <p class="descuento"> 15% off </p>
-                        </article>  
-                        <p class="descripcion"> Televisión Samsung </p>
-                    </section>
-                </section>
-
-                <br>
-
-                <section class="prod">
-                    <section class="imagen-prod">
-                        <img src="/img/macbook.png" class="img-prod"></img>
-                    </section>
-
-                    <section class="info-prod">
-                        <article class="icono-camion">
-                            <i class="fas fa-truck"></i>
-                        </article>
-                        <article class="precio-descuento">
-                        <p class="precio"> $230.000 </p>
-                        <p class="descuento"> 20% off </p>
-                        </article>
-                        <p class="descripcion"> MackBook Pro 2009 </p>
-                    </section>
-                </section>    
-
-                <br>
-
-                <section class="prod">
-                    <section class="imagen-prod">
-                        <img src="/img/celusamsung.jpg" class="img-prod"></img>
-                    </section>
-
-                    <section class="info-prod">
-                        <article class="icono-camion">
-                            <i class="fas fa-truck"></i>
-                        </article>
-                        <article class="precio-descuento">
-                        <p class="precio"> $180.000 </p>
-                        <p class="descuento"> 9% off </p>
-                        </article>
-                        <p class="descripcion"> Samsung Galaxy S10 </p>
-                    </section>
-                </section>
-
-            </div>
-
-        </section>  
-        <br>
     </main>
 
-    <footer id="footer">
-
-        <section class="iconos">
-            <i id="algo" class="fas fa-credit-card"></i>
-        </section>
-        <h4 class="titulo-footer">Pagá con tarjeta o efectivo</h4>
-        <p class="parrafo-footer"> Con Mercado Libre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
-        <section class="iconos">
-            <i class="fas fa-gift"></i>
-        </section>
-        <h4 class="titulo-footer">Envío gratis desde $2500</h4>
-        <p class="parrafo-footer"> Solo por estar registrad@ en Mercado Libre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos </p>
-        <section class="iconos">
-            <i class="fas fa-user-shield"></i>
-        </section>
-        <h4 class="titulo-footer">Seguridad, de principio a fin</h4>
-        <p class="parrafo-footer"> ¿No te gusta? ¡Devolvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegid@ </p>
-        <h6 id="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+    <footer>
+        
+        <div class="flex-footer">
+            <div class="contenedor-footer">
+                <section class="iconos-footer">
+                    <i id="algo" class="fas fa-credit-card"></i>
+                </section>
+                <p class="titulo-footer">Pagá con tarjeta o efectivo</p>
+                <p class="parrafo-footer"> Con Mercado Libre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            </div>
+            <div class="contenedor-footer">
+                <section class="iconos-footer">
+                    <i class="fas fa-gift"></i>
+                </section>
+                <p class="titulo-footer">Envío gratis desde $2500</p>
+                <p class="parrafo-footer"> Solo por estar registrad@ en Mercado Libre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos</p>
+            </div>
+            <div class="contenedor-footer">
+                <sectio class="iconos-footer">
+                    <i class="fas fa-user-shield"></i>
+                </sectio>
+                <p class="titulo-footer">Seguridad, de principio a fin</p>
+                <p class="parrafo-footer"> ¿No te gusta? ¡Devolvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegid@</p>
+            </div>
+        </div>  
+        <p class="copyright-footer">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
 
     </footer>
+
+
 </body>
 
 </html>

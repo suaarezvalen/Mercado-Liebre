@@ -1,203 +1,264 @@
-#headder{
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+/*HEADER*/
+
+header{
     background-color: #EAC926;
-    width: 100%;
-    margin: center;
-}
-
-.main{
-    background-color: #dfdfdf;
-    width: 100%;
-}
-
-#footer{
+    padding-left: 80px;
+    padding-right: 80px;
     font-family: "Roboto";
-    text-align: center;
-    margin-top: 20px;
-    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-#logo{
-    font-family: "Roboto Regular";
-    width: 240px;
-    height: 70px;
-    padding-top: 20px;
-    margin-left: 30px;
-}
-
-.logo-busqueda-parrafo1{
+.flex-header1{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
-.menu{
-    display: none;
+.logo-header{
+    width: 225px;
+    height: 56px;
 }
 
-#busqueda{
+.flex-header2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-header{
+    display: flex;
+    flex-direction: row;    
+}
+
+.menu-header{
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*HEADER*/
+
+/*MAIN*/
+
+main{
+    background-color: #dfdfdf;
+    font-family: "Roboto";
+    padding-bottom: 70px;
+}
+
+.banner-main{
+    width: 100%;
+    height: auto;
+}
+
+.titulo-main{
+    font-size: 30px;
+    color: rgb(78, 78, 78);   
+    padding-left: 80px;
+}
+
+.flex-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.productos-main{
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.productos-main:hover{
+    box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
+    transform: scale(1.02);
+    transition: all 0.5s;
+}
+
+.img-productos-main{
+    width: 375px;
+    height: 375px;
+}
+
+.imganes-img-main{
+    width: 100%;
+    height: auto;
+}
+
+.info-productos-main{
+    border-top: solid #dfdfdf 1px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.icono-info-main{
+    font-size: 24px;
+    color: rgb(0, 255, 34)
+}
+
+.pyd-productos-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.precio-info-main{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.descuento-info-main{
+    font-size: 18px;
+    color: rgb(0, 255, 34);
+    padding-top: 10px;
+}
+
+/*MAIN*/
+
+/*FOOTER*/
+
+footer{
+    font-family: "Roboto";
+    text-align: center;
+    padding-top: 20px;
+    border: solid #dfdfdf 2px
+}
+
+.flex-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:solid #dfdfdf 2px;
+    padding-bottom: 30px;
     padding-top: 20px;
 }
 
-#parrafo1{
-    font-size: 18px;
-    text-align: center;
-    margin-right: 30px;
+.contenedor-footer{
+    width: 400px;
 }
 
-#lista1{
-    margin-left: -10px;
-    font-size: 18px;
-}
-
-#banner{
-    width: 100%;
-}
-
-.img-prod{
-    width: 100%;
-    margin-top: auto;   
-}
-
-.icono-camion{
-    color: rgb(0, 224, 0);
-    font-size: 40px;
-    margin-top: 20px;
-    margin-left: 30px;
-}
-
-#vista{
-    font-family: "Roboto";
-    color: rgb(78, 78, 78);
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 10px;
-
-}
-
-#oferta{
-    font-family: "Roboto";
-    color: rgb(78, 78, 78);
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 10px;
-}
-
-.categorias{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.flex-productos{
-    display: flex;
-    
-}
-
-.imagen-prod{
-    background-color: white;
-    margin: 5px;
-    padding: 10px;
-    border-bottom: solid #ebebeb 1px;
-    text-align: center;
-    box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
-}
-
-.info-prod{
-    background-color: white;
-    margin: 5px;
-    padding: 10px;
-    box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
-}
-
-.info-prod .descuento{
-    color: rgb(0, 255, 34);
-}
-
-.info-prod1 .descripcion{
-    color: #8b8b8b;
-}
-
-.listado-main{
-    font-family: "Roboto";
-    margin-left: 30px;
-}
-
-.precio{
-    font-family: "Roboto";
-    font-size: 18px;
-    width: 30%;
-    margin-left: 30px;
-}
-
-.descuento{
-    font-family: "Roboto";
-    font-size: 16px;
-    width: 70%;
-}
-
-.precio-descuento{
-    display: flex;
-}
-
-.descripcion{
-    font-family: "Roboto";
-    font-size: 16px;
-    margin-left: 30px;
-}
-
-.iconos{
+.iconos-footer{
     color: rgb(0, 110, 255);
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 10px;
 }
 
-#copyright{
-    color: #8b8b8b;
-    margin-top: 70px;
+.titulo-footer{
+    font-size: 30px;
+    color: rgb(78, 78, 78); 
 }
 
+.parrafo-footer{
+    color: #636363;
+}
+
+.copyright-footer{
+    text-align: start;
+    color: #8b8b8b;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+
+/*FOOTER*/
+
+@media (min-width: 361px) and (max-width: 768px){
+
+    /*HEADER*/
+
+    header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo-header{
+        width: 125px;
+        height: 31px;
+    }
+
+    .flex-header2{
+        display: none;
+    }
+
+    .menu-header{
+        display: block;
+    } 
+
+    /*HEADER*/
+    
+    /*MAIN*/
+
+    .flex-main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .titulo-main{
+        font-size: 20px;  
+        padding-left: 10px;
+    }
+    
+    .img-productos-main{
+        width: 340px;
+        height: 340px;
+    }
+
+    .icono-info-main{
+        font-size: 20px;
+        color: rgb(0, 255, 34)
+    }
+
+    .precio-info-main{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    .descuento-info-main{
+        font-size: 15px;
+        color: rgb(0, 255, 34);
+        padding-top: 8px;
+    }
+
+    /*MAIN*/
+
+}
 
 @media (min-width: 769px) and (max-width: 1079px){
 
-}
+    /*HEADER*/
 
-@media (min-width: 361px) and (max-width: 768px){
-    .menu{
-        display: block;
-        color: rgb(0, 110, 255);
-        text-align: center;
-        font-size: 50px;
-        margin-top: 40px;
-    }
-    
-    #lista1{
-        display: none;
+    header{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-    .producto1{
-        box-shadow: none;
+    .logo-header{
+        width: 125px;
+        height: 31px;
     }
 
-    .info-prod1{
-        box-shadow: none;
-    }
-
-    .info-prod1 .descripcion{
-        display: none;
-    }
-
-    .producto2{
-        box-shadow: none;
-    }
-
-    .info-prod2{
-        box-shadow: none;
-    }
-
-    .info-prod2 .descripcion{
-        display: none;
-    }
+    /*HEADER*/
 
 }
+
