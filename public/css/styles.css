@@ -31,6 +31,10 @@ header{
     height: 56px;
 }
 
+.parrafo-header{
+    text-align: center;
+}
+
 .flex-header2{
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +71,9 @@ main{
 
 .titulo-main{
     font-size: 30px;
-    color: rgb(78, 78, 78);   
+    color: rgb(105, 105, 105);
+    padding-top: 30px;
+    padding-bottom: 10px;   
     padding-left: 80px;
 }
 
@@ -128,7 +134,7 @@ main{
 .descuento-info-main{
     font-size: 18px;
     color: rgb(0, 255, 34);
-    padding-top: 10px;
+    padding-top: 6px;
 }
 
 /*MAIN*/
@@ -237,10 +243,19 @@ footer{
     .descuento-info-main{
         font-size: 15px;
         color: rgb(0, 255, 34);
-        padding-top: 8px;
+        padding-top: 4px;
     }
 
     /*MAIN*/
+
+    /*FOOTER*/
+
+    .copyright-footer{
+        text-align: center;
+        margin-left: 1px;
+    }
+
+    /*FOOTER*/
 
 }
 
