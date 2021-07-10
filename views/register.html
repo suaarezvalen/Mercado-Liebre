@@ -4,96 +4,170 @@
     <meta charset="UTF-8">
     <title>Registro</title>
     <link  rel=StyleSheet href="/css/formularios.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link  rel=StyleSheet href="/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0c45205cfc.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <form class="formulario-register">
+    <header>
 
-        <p class="titulo-login">Resgistro</p>
-        <div class="contenedor-login">
+        <div class="flex-header1">
+            
+            <img class="logo-header" src="/img/mercado-libre.png"></img>
+            <section class="buscador-header">
+                <input type="search" placeholder="Buscar" required><button class="boton-header"> <i class="fas fa-search"></i> </button></input>
+            </section>
+            <p class="parrafo-header"> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
 
-            <section class="contenedor1-formulario">
-                <i class="far fa-user icon"></i>
-                <input class="input-formulario" type="text" placeholder="Nombre y Apellido">
+        </div>
+
+        <div class="flex-header2">
+
+            <section>
+                <ul id="lista-izq-header" class="lista-header" type="none">
+                    <li>Ofertas</li>
+                    <li>Tiendas Oficiales</li>
+                    <li>Vender</li>
+                    <li>Ayuda</li>
+                </ul>    
             </section>
             
-            <section class="contenedor1-formulario">
-                <i class="fas fa-key icon"></i>
-                <input class="input-formulario" type="text" placeholder="Nombre de usuario">
-            </section>
-
-            <section class="contenedor1-formulario">
-                <i class="far fa-calendar-alt icon"></i>
-                <input class="input-formulario" type="date" placeholder="Fecha de nacimiento">
-            </section>
-
-            <section class="contenedor1-formulario">
-                <i class="fas fa-house-user icon"></i>
-                <input class="input-formulario" type="text" placeholder="Domicilio">
-            </section>
-
-            <!--Perfil del usuario (consultar a l@s usuari@s si quieren comprar o vender)-->
-            <section class="contenedor1-formulario">
-
-                <p class="parrafo-formulario">¿Qué desea hacer?</p>
-                <input id="Comprar" class="categorias-formulario" type="radio" name="pregunta1">
-                <label for="Comprar">Comprar</label>
-                <input id="Vender" class="categorias-formulario" type="radio" name="pregunta1">
-                <label for="Vender">Vender</label>
-                <input id="Ambas" class="categorias-formulario" type="radio" name="pregunta1">
-                <label for="Ambas">Ambas</label>
-
-            </section>
-
-            <section class="contenedor1-formulario">
-                
-                <p class="parrafo-formulario">¿En qué estas interezado?</p>
-                <input id="categoria1" class="categorias-formulario" type="checkbox" name="VoF">
-                <label for="categoria1">Electro</label>
-
-                <input id="categoria2" class="categorias-formulario" type="checkbox" name="VoF">
-                <label for="categoria2">Moda</label>
-
-                <input id="categoria3" class="categorias-formulario" type="checkbox" name="VoF">
-                <label for="categoria3">Hogar</label>
-
-                <input id="categoria4" class="categorias-formulario" type="checkbox" name="VoF">
-                <label for="categoria4">Juguetería</label>
-
-                <input id="categoria5" class="categorias-formulario" type="checkbox" name="VoF">
-                <label for="categoria5">Vida Sana</label>
-
-            </section>
-
-            <!--Foto de usuario-->
-            <section class="contenedor1-formulario">
-                <p class="parrafo-formulario">¡Subí una foto para tu perfil!</p>
-                <input type="file" value="Foto de perfil">
-            </section>
-
-            <section class="contenedor1-formulario">
-                <i class="fas fa-key icon"></i>
-                <input class="input-formulario" type="password" placeholder="Contraseña">
-            </section>
-
-            <section class="contenedor1-formulario">
-                <i class="fas fa-key icon"></i>
-                <input class="input-formulario" type="password" placeholder="Confirmar contraseña">
-            </section>
-
-            <section class="contenedor2-formulario">
-                <input class="button-formulario" type="submit" value="Login">
-            </section>
-            <br>
-            <section class="contenedor2-formulario">
-                <input class="button-formulario" type="Reset" value="Reset">
-                <p class="subtitulos-formulario">¿Ya tenes cuenta? <a href="login">Login</a></p>
+            <section>
+                <ul id="lista-der-header" class="lista-header" type="none">
+                    <li><a class="sacar-decoraciones" href="register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                    <li><a class="sacar-decoraciones" href="login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                    <li>Mis compras <i class="fas fa-shopping-basket"></i></li>
+                </ul>    
             </section>
 
         </div>
 
-    </form>
+        <div class="menu-header">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <div class="main-trucho">
+        <form class="formulario-register">
+
+            <p class="titulo-login">Resgistro</p>
+            <div class="contenedor-login">
+
+                <section class="contenedor1-formulario">
+                    <i class="far fa-user icon"></i>
+                    <input class="input-formulario" type="text" placeholder="Nombre y Apellido">
+                </section>
+                
+                <section class="contenedor1-formulario">
+                    <i class="fas fa-key icon"></i>
+                    <input class="input-formulario" type="text" placeholder="Nombre de usuario">
+                </section>
+
+                <section class="contenedor1-formulario">
+                    <i class="far fa-calendar-alt icon"></i>
+                    <input class="input-formulario" type="date" placeholder="Fecha de nacimiento">
+                </section>
+
+                <section class="contenedor1-formulario">
+                    <i class="fas fa-house-user icon"></i>
+                    <input class="input-formulario" type="text" placeholder="Domicilio">
+                </section>
+
+                <!--Perfil del usuario (consultar a l@s usuari@s si quieren comprar o vender)-->
+                <section class="contenedor1-formulario">
+
+                    <p class="parrafo-formulario">¿Qué desea hacer?</p>
+                    <input id="Comprar" class="categorias-formulario" type="radio" name="pregunta1">
+                    <label for="Comprar">Comprar</label>
+                    <input id="Vender" class="categorias-formulario" type="radio" name="pregunta1">
+                    <label for="Vender">Vender</label>
+                    <input id="Ambas" class="categorias-formulario" type="radio" name="pregunta1">
+                    <label for="Ambas">Ambas</label>
+
+                </section>
+
+                <section class="contenedor1-formulario">
+                    
+                    <p class="parrafo-formulario">¿En qué estas interezado?</p>
+                    <input id="categoria1" class="categorias-formulario" type="checkbox" name="VoF">
+                    <label for="categoria1">Electro</label>
+
+                    <input id="categoria2" class="categorias-formulario" type="checkbox" name="VoF">
+                    <label for="categoria2">Moda</label>
+
+                    <input id="categoria3" class="categorias-formulario" type="checkbox" name="VoF">
+                    <label for="categoria3">Hogar</label>
+
+                    <input id="categoria4" class="categorias-formulario" type="checkbox" name="VoF">
+                    <label for="categoria4">Juguetería</label>
+
+                    <input id="categoria5" class="categorias-formulario" type="checkbox" name="VoF">
+                    <label for="categoria5">Vida Sana</label>
+
+                </section>
+
+                <!--Foto de usuario-->
+                <section class="contenedor1-formulario">
+                    <p class="parrafo-formulario">¡Subí una foto para tu perfil!</p>
+                    <input type="file" value="Foto de perfil">
+                </section>
+
+                <section class="contenedor1-formulario">
+                    <i class="fas fa-key icon"></i>
+                    <input class="input-formulario" type="password" placeholder="Contraseña">
+                </section>
+
+                <section class="contenedor1-formulario">
+                    <i class="fas fa-key icon"></i>
+                    <input class="input-formulario" type="password" placeholder="Confirmar contraseña">
+                </section>
+
+                <section class="contenedor2-formulario">
+                    <a href="/home"><button class="button-formulario" type="submit">Resgistrarse</button></a>
+                </section>
+                <br>
+                <section class="contenedor2-formulario">
+                    <input class="button-formulario" type="Reset" value="Reset">
+                    <p class="subtitulos-formulario">¿Ya tenes cuenta? <a href="login">Login</a></p>
+                </section>
+
+            </div>
+            
+        </form>
+    </div>>
+
+    <footer>
+        
+        <div class="flex-footer">
+            <div class="contenedor-footer">
+                <section class="iconos-footer">
+                    <i id="algo" class="fas fa-credit-card"></i>
+                </section>
+                <p class="titulo-footer">Pagá con tarjeta o efectivo</p>
+                <p class="parrafo-footer"> Con Mercado Libre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            </div>
+            <div class="contenedor-footer">
+                <section class="iconos-footer">
+                    <i class="fas fa-gift"></i>
+                </section>
+                <p class="titulo-footer">Envío gratis desde $2500</p>
+                <p class="parrafo-footer"> Solo por estar registrad@ en Mercado Libre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos</p>
+            </div>
+            <div class="contenedor-footer">
+                <section class="iconos-footer">
+                    <i class="fas fa-user-shield"></i>
+                </section>
+                <p class="titulo-footer">Seguridad, de principio a fin</p>
+                <p class="parrafo-footer"> ¿No te gusta? ¡Devolvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegid@</p>
+            </div>
+        </div>  
+        <p class="copyright-footer">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+
+    </footer>
+
+</body>
+
+</html>

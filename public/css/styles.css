@@ -198,6 +198,7 @@ main{
 /*FOOTER*/
 
 footer{
+    background-color: white;
     font-family: "Roboto";
     text-align: center;
     padding-top: 20px;
