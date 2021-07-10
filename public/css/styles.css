@@ -12,7 +12,7 @@ body{
 header{
     background-color: #EAC926;
     font-family: "Roboto";
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 
@@ -29,6 +29,26 @@ header{
     height: 56px;
 }
 
+.buscador-header input{
+    width: 40vw;
+    height: 35px;
+    font-size: 18px;
+    color: black;
+    padding-left: 10px;
+    outline: none;
+    border: solid silver 1px;
+    border-radius: 20px;
+}
+
+.boton-header{
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.parrafo-header{
+    margin: 1px;
+}
+
 .flex-header2{
     display: flex;
     flex-wrap: wrap;
@@ -36,18 +56,30 @@ header{
     justify-content: space-between;
     align-items: center;
     padding-top: 15px;
-    padding-left: 180px;
-    padding-right: 180px;
 }
 
 .lista-header{
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 4.947916666666667vw;
+    padding-right: 4.947916666666667vw;
+}
+
+#lista-izq-header li{
+    margin-right: 20px;
+}
+
+#lista-der-header li{
+    margin-left: 20px;
 }
 
 .menu-header{
     display: none;
     text-align: center;
+    font-size: 2em;
+    color: white;
     margin-top: 10px;
 }
 
@@ -87,6 +119,7 @@ main{
 .productos-main{
     background-color: white;
     margin-bottom: 40px;
+    border-radius: 30px;
 }
 
 .productos-main:hover{
@@ -103,6 +136,7 @@ main{
 .imganes-img-main{
     width: 100%;
     height: auto;
+    border-radius: 30px;
 }
 
 .info-productos-main{
@@ -113,8 +147,15 @@ main{
 }
 
 .icono-info-main{
+    width: 11%;
     font-size: 24px;
-    color: rgb(0, 255, 34)
+    color: rgb(0, 255, 34);
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: solid rgb(0, 255, 34) 2px;
+    border-radius: 70px;
 }
 
 .pyd-productos-main{
@@ -132,6 +173,18 @@ main{
     font-size: 18px;
     color: rgb(0, 255, 34);
     padding-top: 6px;
+}
+
+.descripcion-info-main{
+    font-size: 22px;
+    color: rgb(165, 165, 165);
+    margin-right: 10px;
+    display: none;
+}
+
+.productos-main:hover .descripcion-info-main{
+    display: block;
+    transition: all 0.5s;
 }
 
 /*MAIN*/
@@ -200,6 +253,14 @@ footer{
         height: 31px;
     }
 
+    .buscador-header input{
+        width:  40vw;
+    }
+
+    .parrafo-header{
+        margin-top: 10px;
+    }
+
     .flex-header2{
         display: none;
     }
@@ -219,7 +280,7 @@ footer{
 
     .titulo-main{
         font-size: 25px;  
-        padding-left: none;
+        padding-left: 1px;
         text-align: center;
     }
     
@@ -242,6 +303,10 @@ footer{
         font-size: 15px;
         color: rgb(0, 255, 34);
         padding-top: 4px;
+    }
+
+    .descripcion-info-main{
+        font-size: 13px;
     }
 
     /*MAIN*/
@@ -285,6 +350,10 @@ footer{
     .logo-header{
         width: 125px;
         height: 31px;
+    }
+
+    .buscador-header input{
+        width: 30vw;
     }
 
     /*HEADER*/
