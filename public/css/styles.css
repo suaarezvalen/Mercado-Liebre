@@ -11,8 +11,6 @@ body{
 
 header{
     background-color: #EAC926;
-    padding-left: 80px;
-    padding-right: 80px;
     font-family: "Roboto";
     padding-top: 10px;
     padding-bottom: 10px;
@@ -22,7 +20,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -31,16 +29,15 @@ header{
     height: 56px;
 }
 
-.parrafo-header{
-    text-align: center;
-}
-
 .flex-header2{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-top: 15px;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 .lista-header{
@@ -74,17 +71,17 @@ main{
     color: rgb(105, 105, 105);
     padding-top: 30px;
     padding-bottom: 10px;   
-    padding-left: 80px;
+    padding-left: 4.166666666666667vw;
 }
 
 .flex-main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .productos-main{
@@ -221,8 +218,9 @@ footer{
     }
 
     .titulo-main{
-        font-size: 20px;  
-        padding-left: 10px;
+        font-size: 25px;  
+        padding-left: none;
+        text-align: center;
     }
     
     .img-productos-main{
@@ -249,6 +247,22 @@ footer{
     /*MAIN*/
 
     /*FOOTER*/
+
+    .contenedor-footer{
+        width: 350px;
+    }
+    
+    .iconos-footer{
+        font-size: 2em;
+    }
+    
+    .titulo-footer{
+        font-size: 20px;
+    }
+    
+    .parrafo-footer{
+        font-size: 15px;
+    }
 
     .copyright-footer{
         text-align: center;
