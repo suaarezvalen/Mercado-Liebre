@@ -7,6 +7,11 @@ body{
     margin: 0%;
 }
 
+.sacar-decoraciones{
+    color: black;
+    text-decoration: none;
+}
+
 /*HEADER*/
 
 header{
@@ -35,6 +40,7 @@ header{
     font-size: 18px;
     color: black;
     padding-left: 10px;
+    padding-right: 10px;
     outline: none;
     border: solid silver 1px;
     border-radius: 20px;
@@ -155,7 +161,7 @@ main{
     margin-left: 2px;
     margin-right: 2px;
     border: solid rgb(0, 255, 34) 2px;
-    border-radius: 70px;
+    border-radius: 70%;
 }
 
 .pyd-productos-main{
@@ -172,7 +178,7 @@ main{
 .descuento-info-main{
     font-size: 18px;
     color: rgb(0, 255, 34);
-    padding-top: 6px;
+    padding-top: 10px;
 }
 
 .descripcion-info-main{
@@ -302,7 +308,7 @@ footer{
     .descuento-info-main{
         font-size: 15px;
         color: rgb(0, 255, 34);
-        padding-top: 4px;
+        padding-top: 8px;
     }
 
     .descripcion-info-main{

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link  rel=StyleSheet href="/css/styles.css">
+    <link  rel=StyleSheet href="/css/formularios.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0c45205cfc.js" crossorigin="anonymous"></script>
@@ -11,8 +11,100 @@
 
 <body>
 
+    <form class="formulario-login">
+
+        <p class="titulo-login">Login</p>
+        <div class="contenedor-login">
+
+            <section class="contenedor1-formulario">
+                <i class="fas fa-user icon"></i>
+                <input class="input-formulario" type="text" placeholder="Nombre de usuario">
+            </section>
+            
+            <section class="contenedor1-formulario">
+                <i class="fas fa-key icon"></i>
+                <input class="input-formulario" type="password" placeholder="Contraseña">
+            </section>
+
+            <section class="contenedor2-formulario">
+                <input class="button-formulario" type="submit" value="Login">
+                <p class="subtitulos-formulario">¿Aún no tienes cuenta? <a href="register">Registrarse</a></p>
+            </section>
+
+        </div>
+
+    </form>
 
 
+
+
+
+
+
+
+
+<!--
+    <form>
+
+        <label for="cname">Nombre:</label>
+        <input class="cname" type="text" name="name">
+
+        <br>
+
+        <label for="csurname">Surname:</label>
+        <input class="csurname" type="text" name="surname">
+
+        <br>
+
+        <label for="cemail">Email:</label>
+        <input class="cemail" type="email" name="email">
+        
+        <br>
+
+        <label class="cpassword">Pasword:</label>
+        <input class="cpassword" type="password" name="password">
+
+        <br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+
+        <br>
+
+        <input type="date" name0="fecha">
+
+        <br>
+
+        <input type="url">
+
+    </form>
+
+    <form>
+
+        <input id="Si" type="radio" name="VoF">
+        <label for="Si">Si</label>
+        <br>
+        <input id="No" type="radio" name="VoF">
+        <label for="No">No</label>
+        <br>
+        <input id="Puede-Ser" type="radio" name="VoF">
+        <label for="Puede-Ser">Puede Ser</label>
+
+    </form>
+
+    <form>
+
+        <input id="aa" type="checkbox" name="VoF">
+        <label for="aa">Si</label>
+        <br>
+        <input id="bb" type="checkbox" name="VoF">
+        <label for="bb">No</label>
+        <br>
+        <input id="cc" type="checkbox" name="VoF">
+        <label for="cc">Puede Ser</label>
+
+    </form>
+-->
 </body>
 
 </html>

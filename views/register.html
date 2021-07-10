@@ -11,8 +11,89 @@
 
 <body>
 
+    <form class="formulario-register">
 
+        <p class="titulo-login">Resgistro</p>
+        <div class="contenedor-login">
 
-</body>
+            <section class="contenedor1-formulario">
+                <i class="far fa-user icon"></i>
+                <input class="input-formulario" type="text" placeholder="Nombre y Apellido">
+            </section>
+            
+            <section class="contenedor1-formulario">
+                <i class="fas fa-key icon"></i>
+                <input class="input-formulario" type="text" placeholder="Nombre de usuario">
+            </section>
 
-</html>
+            <section class="contenedor1-formulario">
+                <i class="far fa-calendar-alt icon"></i>
+                <input class="input-formulario" type="date" placeholder="Fecha de nacimiento">
+            </section>
+
+            <section class="contenedor1-formulario">
+                <i class="fas fa-house-user icon"></i>
+                <input class="input-formulario" type="text" placeholder="Domicilio">
+            </section>
+
+            <!--Perfil del usuario (consultar a l@s usuari@s si quieren comprar o vender)-->
+            <section class="contenedor1-formulario">
+
+                <p class="parrafo-formulario">¿Qué desea hacer?</p>
+                <input id="Comprar" class="categorias-formulario" type="radio" name="pregunta1">
+                <label for="Comprar">Comprar</label>
+                <input id="Vender" class="categorias-formulario" type="radio" name="pregunta1">
+                <label for="Vender">Vender</label>
+                <input id="Ambas" class="categorias-formulario" type="radio" name="pregunta1">
+                <label for="Ambas">Ambas</label>
+
+            </section>
+
+            <section class="contenedor1-formulario">
+                
+                <p class="parrafo-formulario">¿En qué estas interezado?</p>
+                <input id="categoria1" class="categorias-formulario" type="checkbox" name="VoF">
+                <label for="categoria1">Electro</label>
+
+                <input id="categoria2" class="categorias-formulario" type="checkbox" name="VoF">
+                <label for="categoria2">Moda</label>
+
+                <input id="categoria3" class="categorias-formulario" type="checkbox" name="VoF">
+                <label for="categoria3">Hogar</label>
+
+                <input id="categoria4" class="categorias-formulario" type="checkbox" name="VoF">
+                <label for="categoria4">Juguetería</label>
+
+                <input id="categoria5" class="categorias-formulario" type="checkbox" name="VoF">
+                <label for="categoria5">Vida Sana</label>
+
+            </section>
+
+            <!--Foto de usuario-->
+            <section class="contenedor1-formulario">
+                <p class="parrafo-formulario">¡Subí una foto para tu perfil!</p>
+                <input type="file" value="Foto de perfil">
+            </section>
+
+            <section class="contenedor1-formulario">
+                <i class="fas fa-key icon"></i>
+                <input class="input-formulario" type="password" placeholder="Contraseña">
+            </section>
+
+            <section class="contenedor1-formulario">
+                <i class="fas fa-key icon"></i>
+                <input class="input-formulario" type="password" placeholder="Confirmar contraseña">
+            </section>
+
+            <section class="contenedor2-formulario">
+                <input class="button-formulario" type="submit" value="Login">
+            </section>
+            <br>
+            <section class="contenedor2-formulario">
+                <input class="button-formulario" type="Reset" value="Reset">
+                <p class="subtitulos-formulario">¿Ya tenes cuenta? <a href="login">Login</a></p>
+            </section>
+
+        </div>
+
+    </form>
