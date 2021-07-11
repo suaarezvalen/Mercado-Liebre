@@ -4,11 +4,11 @@ const path = require('path');
 
 
 
-const publicPath = path.resolve(dirname, "./public");
+const publicPath = path.resolve(__dirname, "./public");
 app.use(express.static(publicPath));
 
 
-const publicPath2 = path.resolve(dirname, "./views");
+const publicPath2 = path.resolve(__dirname, "./views");
 app.use(express.static(publicPath2));
 
 app.get("/", (req, res) => {
