@@ -16,7 +16,7 @@ body{
 
 header{
     background-color: #EAC926;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -95,7 +95,7 @@ header{
 
 main{
     background-color: #dfdfdf;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     padding-bottom: 70px;
 }
 
@@ -199,7 +199,7 @@ main{
 
 footer{
     background-color: white;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     text-align: center;
     padding-top: 20px;
     border: solid #dfdfdf 2px

@@ -6,7 +6,7 @@ body{
     background-image: url("/img/fondo-login.jpg");
     background-size: cover;
     background-attachment: fixed;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 }
 
 /*LOGIN*/
